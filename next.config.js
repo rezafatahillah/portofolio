@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 
 const isLocal = process.env.NODE_ENV === 'development';
-const domain = isLocal ? [] : ['rezafatahillah.github.io'];
+const domain = isLocal ? [] : ['rezafatahillah.github.io/portofolio/'];
 
 const nextConfig = {
   output: 'export',
